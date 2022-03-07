@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int i;
-    int *p = &i;
-    i = 987;
-    printf("p=%p\n", p);
-    printf("*p=%d\n", *p);
+    int i = 0;
+    printf("0x%x\n", &i);
     return 0;
 }
